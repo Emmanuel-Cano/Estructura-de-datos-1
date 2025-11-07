@@ -8,10 +8,8 @@ public class App {
         ArrayStack<JobCustom> stack = new ArrayStack<>();
         SinglyLinkedList bitacora = new SinglyLinkedList();
 
-        System.out.println("===============================================");
         System.out.println("   Simulador de Procesamiento de Trabajos  ");
         System.out.println("  Comandos: ADD, PROCESS, COMMIT, ROLLBACK, PRINT, END");
-        System.out.println("===============================================");
 
         boolean running = true;
 
