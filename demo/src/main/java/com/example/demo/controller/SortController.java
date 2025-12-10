@@ -1,19 +1,18 @@
 package com.example.demo.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.example.demo.dto.CustomRequest;
-import com.example.demo.service.SortService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.dto.CanoRequest;
+import com.example.demo.dto.CustomRequest;
 import com.example.demo.dto.ErrorResponse;
+import com.example.demo.service.SortService;
 
 @RestController
 @RequestMapping("/api/sort") // path
@@ -63,5 +62,15 @@ public class SortController {
     public String getMethodName(@RequestParam String param) {
         return new String();
     }
+
+
+
+    @PostMapping("/cano")
+    public ResponseEntity<?> postMethodName(@RequestBody CanoRequest request) {
+        //TODO: process POST request
+        
+        return ResponseEntity.ok().body(request);
+    }
+    
 
 }

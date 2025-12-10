@@ -4,3 +4,4 @@ com/example/demo/controller/SortController.class
 com/example/demo/dto/CustomRequest.class
 com/example/demo/controller/GeneralErrorHandlerController.class
 com/example/demo/dto/ErrorResponse.class
+com/example/demo/dto/CanoRequest.class
