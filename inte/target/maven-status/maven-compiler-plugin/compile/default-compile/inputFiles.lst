@@ -1,0 +1,16 @@
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/InteApplication.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/controller/GeneralErrorHandlerController.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/controller/LibraryController.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/dto/BookRequest.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/dto/ErrorResponse.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/dto/LoanRequest.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/dto/ReservationRequest.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/dto/UserRequest.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/ArrayQueue.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/ArrayStack.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/IQueue.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/IStack.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/LoanLinkedListService.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/Node.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/SinglyLinkedListService.java
+/Users/emmanuelcanolanda/Desktop/inte/src/main/java/com/example/inte/service/UserLinkedListService.java
